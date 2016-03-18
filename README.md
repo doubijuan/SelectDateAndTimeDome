@@ -1,7 +1,7 @@
 # DatePicker与TimePicker的使用
 # Android开发中经常会使用到日期选择器与时间选择器，接下来我就来总结一下
 
-效果图：
+#效果图：
 ![](http://img.blog.csdn.net/20160111214712608?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 # 先贴一下项目结构图：
