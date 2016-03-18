@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_tabhost_height"
+        android:background="@color/app_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="选择日期与时间"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <!-- 选择日期 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_select_date"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:id="@+id/select_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="选择日期"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <TextView
+            android:id="@+id/tv_select_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/select_date"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 选择时间 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_select_time"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:id="@+id/select_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="选择时间"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <TextView
+            android:id="@+id/tv_select_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/select_time"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+</LinearLayout>
